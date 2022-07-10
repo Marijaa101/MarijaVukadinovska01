@@ -1,0 +1,231 @@
+body{
+    margin-top: 20px;
+}
+*{
+    padding: 0;
+    margin: auto;
+    box-sizing: border-box;
+}
+#header h1{
+    font-family: Arial, Helvetica ,sans-serif;
+    font-size: 38px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #2d2d2d;
+}
+.search{
+    position: absolute;
+    top: 48px;
+    right: 130px;
+    height: 30px;
+    width: 250px;
+}
+.line{
+    background-image: url("Images/linija.PNG");
+    background-repeat: repeat-x;
+    height: 7px;
+}
+.lupa{
+    background-image: url("Images/lupa1.PNG");
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left: 446px;
+    top: -55px;
+}
+#menu{
+    margin-left: 35.5%;
+    width: 500px;
+    margin-top: 18px;
+    text-align: center;
+    font-size: 18px;
+    font-family: "Times New Roman", Times, serif;
+}
+#menu li{
+    display: inline-block;
+    margin-right: 58px;
+}
+#menu li a {
+    text-decoration: none;
+    color: grey;
+}
+#menu li a:hover{
+    color: black;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    background-color: lightgrey;
+    padding: 10px;
+}
+#main{
+    margin-top: 110px;
+    height: 3000px;
+}
+#main h1{
+    font-family: Arial,Helvetica,sans-serif;
+    text-align: center;
+    font-size: 80px;
+}
+#main img{
+    position: relative;
+    left: 38.5%;
+    width: 355px;
+    height: 530px;
+    margin-top: 28px ;
+}
+.hello{
+ color: #04AA6D;
+}
+.center{
+    font-family: Arial,Helvetica,sans-serif;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 18px;
+}
+#desk{
+    padding-top: 80px;
+    margin: 80px 0 100px 0;
+    background-image: url("Images/desk_cherry.PNG");
+    background-repeat: no-repeat;
+    background-position: right 20px;
+    height: 800px;
+    width: 100%;
+}
+#about{
+    background-color: #d9e6f8;
+    width: 750px;
+    margin: 0 0 0 40px;
+    padding: 80px;
+}
+#about p,#mypicture{
+    margin-bottom: 20px;
+}
+h2{
+    color: #04AA6D;
+            /*#5b5555;*/
+    font-family: Arial, Helvetica ,sans-serif;
+    text-transform: uppercase;
+    font-size: 45px;
+}
+.margin{
+    margin-left:20px;
+}
+.button{
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+.button:hover {
+    background-color: #3e8e41
+}
+.button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+#education{
+    text-align: center;
+    height: 500px;
+    margin-bottom: 450px;
+}
+#mypicture{
+    height: 300px;
+    width: 300px;
+    background-image:url("Images/picture-od-me.PNG");
+    border-radius: 150px;
+}
+#wrap{
+    margin: 50px 23px 0 0;
+
+}
+#wrap li{
+    height: 200px;
+    width: 400px;
+    float: left;
+    list-style-type: none;
+    text-align: center;
+    padding: 20px;
+}
+.lista{
+    display: inline-block;
+    width: 350px;
+    font-size: 18px;
+}
+.div{
+    float: left;
+    width: 600px;
+    margin: 0 0 20px 50px;
+}
+#contact{
+    margin-top: 350px;
+    margin-left:235px;
+    height: 1000px;
+}
+fieldset{
+    height: 250px;
+    text-align: center;
+}
+#button{
+    position: relative;
+    left: 150px;
+    top: 20px;
+    padding: 15px 25px;
+    font-size: 15px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+#footer{
+    text-align: center;
+    padding-top:180px;
+}
+.fa{
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 10px;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+.fa-skype {
+    background: #00aff0;
+    color: white;
+}
+.paragraf{
+    margin:30px 0 10px 0;
+}
+#paragraf1{
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+}
+#paragraf2{
+    letter-spacing: 4px;
+}
+
+
